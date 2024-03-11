@@ -1,5 +1,13 @@
-button {
-    background-color: blueviolet;
+button{
+    font-size: 30px;
     text-align: center;
-    padding: auto;
+}
+b1 {
+    color: blue;
+}
+b2  {
+    color: black;
+}
+p {
+    text-align: center;
 }
