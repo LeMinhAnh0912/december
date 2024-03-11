@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    
+}
+input {
+ width: 100%;  
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+form{
+    width: 700px;
+    /* can giua 1 the block: margin:auto */
+    margin: auto;
+
+}
+button {
+    background-color: #0f46d991;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    /* tren - phai - duoi - trai */
+   padding: 7px 14px 7px 14px;
+};
