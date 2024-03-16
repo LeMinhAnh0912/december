@@ -1,0 +1,122 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border-radius: 20px !important;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: black;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  color: white;
+}
+.header-list-1 {
+  color: orange;
+}
+.header-rkr {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white;
+}
+.header-ffr {
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+.header-dolor {
+  color: white;
+}
+.main-ffr {
+  position: relative;
+}
+.main-ffr-1 {
+  position: absolute;
+  top: 250px;
+  left: 90px;
+  z-index: 10;
+  color: white;
+}
+.carousel-control-prev-icon {
+  display: none !important;
+}
+.carousel-control-next-icon {
+  display: none !important;
+}
+.header-icon-btn {
+  color: white;
+}
+button.active {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100% !important;
+  background-color: orange !important;
+}
+.radius {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100% !important;
+}
+.header-waf {
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+.img-bottom {
+  width: 300px;
+  height: 400px;
+}
+.main-test-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 700px;
+  background-color: black;
+}
+.div-p {
+  color: white;
+}

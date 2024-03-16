@@ -1,0 +1,131 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.header-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-btn-signup {
+  width: 150px;
+  height: 45px;
+  border: #f53838 solid 1px;
+  border-radius: 50px;
+  color: #f53838;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: unset;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.free-plan-h2 {
+  text-align: center;
+  width: 555px;
+  font-size: 50px;
+  font-weight: 500;
+}
+.nm {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+}
+.LaslesVPN {
+  font-weight: 700;
+  font-size: ;
+}
+.free-plan-p {
+  width: 555px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Get-Started {
+  color: white;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+
+  background-color: #f53838;
+}
+.Get-Started-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.user-90 {
+  gap: 36px;
+  width: 145px;
+  display: flex;
+  align-items: center;
+}
+.uls {
+  gap: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 103px;
+}
+.csc {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.free-plan {
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.icon-check {
+  color: #2fab73;
+}

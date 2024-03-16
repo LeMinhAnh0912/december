@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form{
+    margin: 20px ;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
